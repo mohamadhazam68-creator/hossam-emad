@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hossam Emad</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Tahoma, sans-serif;
+    color: #fff;
+
+    background:
+        radial-gradient(circle at top right, rgba(0, 255, 200, .16), transparent 35%),
+        radial-gradient(circle at bottom left, rgba(0, 120, 255, .15), transparent 40%),
+        linear-gradient(135deg, #050505, #101010 55%, #050505);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.card {
+    width: 100%;
+    max-width: 430px;
+    padding: 35px 25px;
+    border-radius: 28px;
+
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.12);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+
+    box-shadow:
+        0 20px 60px rgba(0,0,0,.5);
+
+    text-align: center;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #aaa;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 16px 20px;
+    border-radius: 16px;
+
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.12);
+
+    font-size: 17px;
+    font-weight: 700;
+
+    transition: .25s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    background: rgba(255,255,255,.14);
+}
+
+.insta {
+    background: linear-gradient(
+        135deg,
+        rgba(225,48,108,.25),
+        rgba(131,58,180,.25)
+    );
+}
+
+.facebook {
+    background: rgba(24,119,242,.20);
+}
+
+.whatsapp {
+    background: rgba(37,211,102,.18);
+}
+
+.instapay {
+    background: rgba(0,200,160,.20);
+}
+
+.phone {
+    background: rgba(255,255,255,.10);
+}
+
+.footer {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #777;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="name">Hossam Emad</div>
+
+    <div class="subtitle">
+        Personal Contact
+    </div>
+
+    <div class="buttons">
+
+        <a class="btn phone"
+           href="tel:+201101656007">
+            📞 اتصال
+        </a>
+
+        <a class="btn whatsapp"
+           href="https://wa.me/201101656007"
+           target="_blank">
+            💬 WhatsApp
+        </a>
+
+        <a class="btn facebook"
+           href="https://www.facebook.com/share/1J1RiKwJXB/"
+           target="_blank">
+            🔵 Facebook
+        </a>
+
+        <a class="btn insta"
+           href="https://www.instagram.com/hossamemad129?stkn=MTliYXAyb3M3cXl6Ng=="
+           target="_blank">
+            📸 Instagram
+        </a>
+
+        <a class="btn instapay"
+           href="https://ipn.eg/S/hemad0191/instapay/3lQKmn"
+           target="_blank">
+            💳 InstaPay
+        </a>
+
+    </div>
+
+    <div class="footer">
+        Hossam Emad © 2026
+    </div>
+
+</div>
+
+</body>
+</html>
